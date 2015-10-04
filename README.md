@@ -15,6 +15,22 @@ Remote Data Restful API Service
   - POST, GET : Query support
   - URL Sample : [URL Domain]/EXECUTE/[databasename]
 
+- Response
+  - Data Type : JSON, XML
+  - Return code
+    - 200 : OK
+    - 201 : Created
+    - 202 : Accepted
+    - 301 : Moved Permanently
+    - 400 : Bad Request
+    - 401 : Unauthorized
+    - 403 : Forbidden
+    - 404 : Not Found
+    - 405 : Method Not Allowed
+    - 406 : Not Acceptable
+    - 409 : Conflict
+    - 500 : Internal Server Error
+    - 503 : Service Unavailable
 
 # Required
 - pip install lxml
