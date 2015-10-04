@@ -2,8 +2,8 @@
 Web DB Data Query Service
 
 - Multiple database connection pool manage
-- Restful API Support
-- Query Execute Support
+- Restful API support
+- User query execute support
 
 # Required
 - pip install lxml
