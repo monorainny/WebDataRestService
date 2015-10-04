@@ -8,12 +8,13 @@ Remote Data Restful API Service
   - URL Sample : [URL Domain]/API/[database name]/[table name]
 
 - Predefined query execute support
-  - POST, GET : Query parameter support
+  - POST, GET : Query parameter support (QUERY_ID, QUERY_PARAM)
   - URL Sample : [URL Domain]/QUERY/[database name]/[QUERY ID]
 
 - User query execute support
-  - POST, GET : Query support
+  - POST, GET : Query support (QUERY)
   - URL Sample : [URL Domain]/EXECUTE/[databasename]
+  - URL Sample : [URL Domain]/UPDATE/[databasename]
 
 - Response
   - Data Type : JSON, XML
