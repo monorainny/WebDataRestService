@@ -2,5 +2,5 @@
 Web DB Data Query Service
 
 #Required
-lxml
-SQLObject
+pip install lxml
+pip install SQLAlchemy
